@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/button_check"
+        android:text="Check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/textview_zoomsupport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zoom Supported: ?"
+        android:layout_gravity="center"
+        android:textSize="10dp"/>
+    <TextView
+        android:id="@+id/textview_smoothzoomsupport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SmoothZoom Supported: ?"
+        android:layout_gravity="center"
+        android:textSize="10dp"/>
+
+    <TextView
+        android:id="@+id/textview_currentzoom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Current Zoom: ?"
+        android:layout_gravity="center"
+        android:textSize="10dp"/>
+    <TextView
+        android:id="@+id/textview_maxzoom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Max Zoom: ?"
+        android:layout_gravity="center"
+        android:textSize="10dp"/>
+
+
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/camera_preview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/button_capture"
+        android:text="Capture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        />
+    <Button
+        android:id="@+id/button_zoomX10"
+        android:text="ZoomX10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/button_zoommax"
+        android:text="ZoomMax"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/button_unzoom"
+        android:text="UnZoom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
